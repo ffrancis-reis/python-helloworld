@@ -5,7 +5,7 @@ on:
       - 'main'
 jobs:
   build:
-    runs-on: linux/amd64,linux/arm64
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         python-version: [2.7, 3.5, 3.6, 3.7, 3.8]
